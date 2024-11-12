@@ -1,6 +1,6 @@
 body {
     background-color: #e9edc9;
-    font-family: Akaya Telivigala, serif;
+    font-family: "Afacad Flux", sans-serif;
     color: black;
 }
  
@@ -18,7 +18,7 @@ h2{
 }
 
 #Welcome {
-    background-image: url(../images/green.jpg);
+    background-image: url(../images/minecraft.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
