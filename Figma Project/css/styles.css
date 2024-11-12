@@ -1,5 +1,5 @@
 body {
-    background-color: #e9edc9;
+    background-color: #DDE7C7;
     font-family: "Afacad Flux", sans-serif;
     color: black;
 }
@@ -21,6 +21,7 @@ h2{
     background-image: url(../images/minecraft.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 #panel_bg {
@@ -36,13 +37,9 @@ h2{
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
-#yeah {
-    background-image: url(../images/wale.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
   
 
@@ -90,6 +87,7 @@ h2{
 .modal-body{
     color: black;
 }
+
 .card-title {
     color: #fff;
   }
