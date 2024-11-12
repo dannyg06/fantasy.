@@ -5,7 +5,7 @@ body {
 }
  
 h2{
-    color:#732922;
+    color:#38160d;
     text-align: center;
 }
 
@@ -21,18 +21,8 @@ h2{
     background-image: url(../images/minecraft.jpg);
     background-size: cover;
     background-position: center;
-    text-align: center;
 }
 
-#amor{
-    background-image: url(../images/gotg.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#prohibido{
-    width: 50%;
-}
 #panel_bg {
     width: 50%;
 }
@@ -43,7 +33,7 @@ h2{
 
 
 #bye {
-    background-image: url(../images/water.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -54,45 +44,7 @@ h2{
     background-position: center;
 }
 
-#noo{
-    width: 50%;
-}
-#ramune {
-    width: 300px; 
-    margin: 20px; 
-}
-
-#ramuno {
-    width: 300px; 
-    margin: 20px; 
-}
-
-#ramun {
-    width: 300px; 
-    margin: 20px; 
-}
-
-#carouselExampleFade {
-    max-width: 100%;
-    margin: auto;
-}
-
-
-
- .carousel-inner img {
-    width: 100%; 
-    height: auto; 
-  }
   
-
- .carousel-inner {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .carousel-item {
-    text-align: center;
-  } 
 
 
 /*Classes*/
@@ -107,7 +59,7 @@ h2{
     background-color: white;
 }
 .navbar a {
-    color: #732922;
+    color: #38160d;
   }
 .navbar li a:hover{
     background-color: #98c1d9;
@@ -124,7 +76,7 @@ h2{
 }
 
 .nav-link.active {
-    color: #732922 !important;
+    color: #38160d !important;
   }
 
 
@@ -168,7 +120,7 @@ h2{
 color: #732922;
 }
 .btn:hover {
-    background-color: #c1fba4;
+    background-color: #a7c957;
   }
   
 img, .container-fluid {
@@ -187,9 +139,19 @@ img, .container-fluid {
     width: 100%;
     object-fit: cover !important;
   }
+  
 
 }
 
+@media only screen and (max-width: 768px) {
+    #panel_bg {
+      width: 100%;
+    }
+    #panel_bg2 {
+        width: 100%;
+    }
+  }
+  
 /*desktop css*/
 @media (min-width:1024px) {
     #panel_bg {
