@@ -1,0 +1,208 @@
+body {
+    background-color:black;
+    color: white;
+}
+ 
+h2{
+    color:white;
+    text-align: center;
+}
+
+.bg-green {
+    background-color: #454d28;
+  }
+
+#header{
+    width: 100%;
+}
+
+#Welcome {
+    background-image: url(../images/minecraft.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#panel_bg {
+    width: 50%;
+}
+
+#panel_bg2 {
+    width: 50%;
+}
+
+#hello {
+    background-image: url(../images/freigther.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#bye {
+    background-image: url(../images/blue.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#redirect-card {
+  background-color: #606c38;
+  color: #fff;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+#redirect-card:hover {
+  background-color: black;
+  box-shadow: 0 0 70px rgba(66, 255, 116, 0.644);
+}
+
+#redirect-card2 {
+  background-color: #606c38;
+  color: #fff;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+#redirect-card2:hover {
+  background-color: black;
+  box-shadow: 0 0 70px rgba(66, 255, 116, 0.644);
+}
+
+
+p{
+  line-height: 1.75;
+}
+
+
+/*Classes*/
+.img-fluid {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+  }
+
+  
+.navbar{
+    background-color: white;
+}
+
+.navbar a {
+    color: white;
+  }
+.navbar li a:hover{
+    background-color: #98c1d9;
+}
+.navbar-toggler {
+    color: white;
+    border-color: #98c1d9;
+    background-color: #fff;
+}
+
+
+.dropdown-item{
+    background-color: white;
+}
+
+.nav-link.active {
+    color: white !important;
+  }
+
+
+.header{
+    width:fit-content;
+}
+
+.carousel-inner{
+    margin-left: 35%;
+}
+
+.modal-title{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
+
+.card-title {
+    color: #fff;
+  }
+  
+  .card-text {
+    color: #fff;
+  }
+
+.card {
+    object-position: center;
+
+}
+
+.card{
+    background-color: #606c38;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 70px rgba(64, 237, 4, 0.8); 
+    background-color: black;
+  }
+
+.btn {
+    padding: 10px;
+    margin: 20px auto;
+    width: auto;
+    color: white;
+    background-color: rgb(25, 60, 25);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(25, 60, 25);
+    box-shadow: 0 0 70px rgba(64, 237, 4, 0.8);
+    color: white;
+  }
+  
+img, .container-fluid {
+    max-width: 100%;
+    text-align: justify;
+  }
+
+/*tablet css*/
+
+@media (max-width: 768px) {
+    #header_img {
+      background-size: cover;
+      background-position: center;
+    }
+#header {
+    width: 100%;
+    object-fit: cover !important;
+  }
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+    #panel_bg {
+      width: 100%;
+    }
+    #panel_bg2 {
+        width: 100%;
+    }
+  }
+  
+/*desktop css*/
+@media (min-width:1024px) {
+    #panel_bg {
+    width: 50%;
+    
+}
+
+}
+
+img{
+
+    max-width: 100%;
+}
