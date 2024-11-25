@@ -173,6 +173,7 @@ img, .container-fluid {
 .accordion {
   width: 30%;
   margin: 40px auto;
+  display: flex;
   }
   
 
@@ -225,6 +226,10 @@ img, .container-fluid {
       background-size: cover;
       background-position: center;
     }
+    
+      .accordion {
+        width: 100%;
+      }
 #header {
     width: 100%;
     object-fit: cover !important;
